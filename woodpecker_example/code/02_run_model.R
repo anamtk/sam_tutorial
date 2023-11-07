@@ -28,7 +28,7 @@ for(i in package.list){library(i, character.only = T)}
 # Load Data ---------------------------------------------------------------
 
 #load the formatted data for the JAGS model
-data <- readRDS(here("woodpecker_exmaple",
+data <- readRDS(here("woodpecker_example",
                      "data",
                      "data_output",  
                      "JAGS_input_data_list.RDS"))
